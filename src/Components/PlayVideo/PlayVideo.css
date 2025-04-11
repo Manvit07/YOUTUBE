@@ -1,0 +1,315 @@
+.play-video {
+    flex-basis: 69%;
+}
+
+.play-video iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 37vw;
+}
+
+.play-video h3 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.play-video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.G-BUTTON {
+    margin-bottom: 10px;
+}
+
+.play-video-info img {
+    width: 20px;
+    margin-bottom: 0px;
+}
+
+.play-video-info span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.play-video-info div .like,
+.play-video-info div .share,
+.play-video-info div .save {
+    background: #ccc;
+    padding: 10px 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.play-video-info div .like img,
+.play-video-info div .share img,
+.play-video-info div .save img {
+    width: 25px;
+    height: 25px;
+}
+
+.play-video hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.publisher {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.publisher .profile-img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.publisher div p {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.publisher div span {
+    font-size: 13px;
+    color: #5a5a5a;
+}
+
+.publisher button {
+    margin-left: 10px;
+    background: red;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.vid-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 15px 0;
+}
+
+.vid-description p,
+.vid-description h4 {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 5px;
+}
+
+.video-description {
+    position: relative;
+    max-width: 600px;
+    /* Adjust as needed */
+    font-size: 14px;
+    background-color: #ccc;
+    /* Light gray background */
+    padding: 10px;
+    /* Add some padding for better spacing */
+    border-radius: 25px;
+    /* Optional: adds rounded corners */
+}
+
+.video-description p {
+    padding: 5px;
+    margin: 0;
+}
+
+.video-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Limits to 2 lines */
+    line-clamp: 2;
+    /* Standard property for future compatibility */
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    /* Standard property */
+    transition: all 0.3s ease-in-out;
+    background-color: #ccc;
+    /* Ensures text background matches container */
+    ;
+}
+
+.video-text.expanded {
+    -webkit-line-clamp: unset;
+    /* Shows full text when expanded */
+    line-clamp: unset;
+    /* Future standard */
+    overflow: visible;
+}
+
+.more-btn {
+    padding: 5px;
+    color: blue;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.comment img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comment h3 {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.comment h3 span {
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.comment-action {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.comment-action img {
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.comment-action span {
+    margin-right: 20px;
+    color: #5a5a5a;
+}
+
+@media (max-width: 900px) {
+    .play-video {
+        flex-basis: 100%;
+    }
+
+    .play-video iframe {
+        padding-right: 15px;
+        height: 50vw;
+    }
+
+    .vid-description {
+        padding-left: 15px;
+    }
+
+    .play-video-info span {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .play-video h3 {
+        padding-right: 15px;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .play-video iframe {
+        padding-left: 0;
+        height: 60vw;
+    }
+
+    .publisher .profile-img,
+    .comment img {
+        width: 30px;
+    }
+
+    .publisher button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .vid-description {
+        padding-left: 10px;
+    }
+
+    .play-video-info div .like,
+    .play-video-info div .share,
+    .play-video-info div .save {
+        padding: 8px;
+    }
+
+    .play-video-info div .like img,
+    .play-video-info div .share img,
+    .play-video-info div .save img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .comment h3 {
+        font-size: 12px;
+    }
+
+    .comment h3 span {
+        font-size: 10px;
+    }
+
+    .comment-action span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 300px) {
+    .play-video iframe {
+        height: 60vw;
+    }
+
+    .play-video h3 {
+        font-size: 16px;
+    }
+
+    .play-video-info {
+        font-size: 12px;
+    }
+
+    .vid-description {
+        padding-left: 10px;
+    }
+}
+
+/* For Ultra-Small Mobile Devices (max-width: 200px) */
+@media (max-width: 200px) {
+    .play-video iframe {
+        height: 70vw;
+    }
+
+    .play-video h3 {
+        font-size: 14px;
+    }
+
+    .play-video-info {
+        font-size: 10px;
+    }
+
+    .vid-description {
+        padding-left: 5px;
+    }
+}
