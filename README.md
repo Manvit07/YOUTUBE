@@ -11,7 +11,8 @@ This project recreates the core functionality of YouTube’s interface including
 
 <!-- Replace the placeholders below with actual image links -->
 <p align="center">
-  <img src=![image](https://github.com/user-attachments/assets/e7238f1a-574c-4de7-a4b3-467832252e31) alt="Home Page" width="800"/>
+  <img src=![image](https://github.com/user-attachments/assets/54c39cdc-95f5-4267-9d43-0d6b1f80b121)
+ alt="Home Page" width="800"/>
 </p>
 
 <p align="center">
