@@ -11,12 +11,12 @@ This project recreates the core functionality of YouTube’s interface including
 
 <!-- Replace the placeholders below with actual image links -->
 <p align="center">
-  <img src= "/assets/m1.png"
+  <img src= src/assets/m1.png
  alt="Home Page" width="800"/>
 </p>
 
 <p align="center">
-  <img src="/assets/m2.png" alt="Video Player" width="800"/>
+  <img src= alt="Video Player" width="800"/>
 </p>
 
 ---
