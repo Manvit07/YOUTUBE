@@ -10,7 +10,7 @@ import blogs from '../../assets/blogs.png'
 import news from '../../assets/news.png'
 import sports from '../../assets/sports.png'
 import PewDiePie from '../../assets/PewDiePie.jpg'
-import simon from '../../assets/simon.png'
+import Mrbeast from '../../assets/Mrbeast.jpg'
 import tom from '../../assets/tom.png'
 import megan from '../../assets/megan.png'
 import cameron from '../../assets/cameron.png'
@@ -55,7 +55,7 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
                     <img src={PewDiePie} alt="" /><p>PewDiePie</p>
                 </div>
                 <div className='side-link'>
-                    <img src={simon} alt="" /><p>Mrbeast</p>
+                    <img src={Mrbeast} alt="" /><p>Mrbeast</p>
                 </div>
                 <div className='side-link'>
                     <img src={tom} alt="" /><p>Justin Bibar</p>
