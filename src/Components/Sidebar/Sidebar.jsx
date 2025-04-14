@@ -9,7 +9,7 @@ import music from '../../assets/music.png'
 import blogs from '../../assets/blogs.png'
 import news from '../../assets/news.png'
 import sports from '../../assets/sports.png'
-import jack from '../../assets/jack1.png'
+import jack1 from '../../assets/jack1.png'
 import simon from '../../assets/simon.png'
 import tom from '../../assets/tom.png'
 import megan from '../../assets/megan.png'
@@ -52,7 +52,7 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
             <div className="subscribed-list">
                 <h3>Subscribed</h3>
                 <div className='side-link'>
-                    <img src={jack} alt="" /><p>PewDiePie</p>
+                    <img src={jack1} alt="" /><p>PewDiePie</p>
                 </div>
                 <div className='side-link'>
                     <img src={simon} alt="" /><p>Mrbeast</p>
