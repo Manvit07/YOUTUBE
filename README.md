@@ -1,7 +1,7 @@
 # 📺 YouTube Clone
 
-A responsive and interactive clone of the YouTube homepage, built with React and Vite.  
-This project replicates key features of the YouTube UI, including video thumbnails, navigation, and responsive design.
+A modern YouTube homepage clone built using **React** and **Vite**.  
+This project recreates the core functionality of YouTube’s interface including video playback, category-based recommendations, and search functionality.
 
 🔗 **Live Demo:** [youtube-weld-tau.vercel.app](https://youtube-weld-tau.vercel.app)
 
@@ -22,12 +22,12 @@ This project replicates key features of the YouTube UI, including video thumbnai
 
 ## ✨ Features
 
-- 🎬 Video thumbnail grid
-- 🔍 Search bar with dynamic filtering
-- 📱 Fully responsive layout
-- ⚡ Fast loading with Vite bundler
-- 🧭 Sidebar navigation (Home, Trending, Subscriptions)
-- 🌙 Dark mode support (optional)
+- 🎬 **Watch Videos** – Embedded YouTube video player for viewing.
+- 🔍 **Fully Functional Search Bar** – Users can search any keyword and get accurate video results.
+- 📂 **Sidebar Categories** – Click on a category to view recommended videos specific to that topic.
+- 🧠 **Video Recommendations** – When a video is playing, related content appears beside the player.
+- 💻 **Partially Responsive** – Works well on desktop and some tablets. (Mobile responsiveness still in progress.)
+- 🚫 **Dark Mode Not Yet Implemented** – Planned in future updates.
 
 ---
 
@@ -36,8 +36,9 @@ This project replicates key features of the YouTube UI, including video thumbnai
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [CSS Modules](https://github.com/css-modules/css-modules)
-- [ESLint](https://eslint.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Axios](https://axios-http.com/) – for fetching YouTube data
+- [Material UI / Custom CSS] – for layout and styling
 
 ---
 
@@ -45,8 +46,8 @@ This project replicates key features of the YouTube UI, including video thumbnai
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/) (v14 or higher)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Node.js](https://nodejs.org/) (v14+)
+- npm or yarn installed globally
 
 ### Installation
 
@@ -55,4 +56,3 @@ This project replicates key features of the YouTube UI, including video thumbnai
    ```bash
    git clone https://github.com/Manvit07/YOUTUBE.git
    cd YOUTUBE
-
