@@ -16,7 +16,27 @@ This project recreates the core functionality of YouTube’s interface including
 </p>
 
 <p align="center">
-  <img src= alt="Video Player" width="800"/>
+  <img src= src/assets/m2.png alt="Video Player" width="800"/>
+</p>
+
+<p align="center">
+  <img src= src/assets/m3.png alt="Video Player" width="800"/>
+</p>
+
+<p align="center">
+  <img src= src/assets/m4.png alt="Video Player" width="800"/>
+</p>
+
+<p align="center">
+  <img src= src/assets/m5.png alt="Video Player" width="800"/>
+</p>
+
+<p align="center">
+  <img src= src/assets/m6.png alt="Video Player" width="800"/>
+</p>
+
+<p align="center">
+  <img src= src/assets/m7.png alt="Video Player" width="800"/>
 </p>
 
 ---
