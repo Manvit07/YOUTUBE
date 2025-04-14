@@ -16,7 +16,7 @@ This project recreates the core functionality of YouTube’s interface including
 </p>
 
 <p align="center">
-  <img src="path_to_your_screenshot2.png" alt="Video Player" width="800"/>
+  <img src="src/assets/m2.png" alt="Video Player" width="800"/>
 </p>
 
 ---
