@@ -43,13 +43,18 @@ This project recreates the core functionality of YouTube’s interface including
 
 ## ✨ Features
 
-- 🎬 **Watch Videos** – Embedded YouTube video player for viewing.
-- 🔍 **Fully Functional Search Bar** – Users can search any keyword and get accurate video results.
-- 📂 **Sidebar Categories** – Click on a category to view recommended videos specific to that topic.
-- 🧠 **Video Recommendations** – When a video is playing, related content appears beside the player.
-- 💻 **Partially Responsive** – Works well on desktop and some tablets. (Mobile responsiveness still in progress.)
-- 🚫 **Dark Mode Not Yet Implemented** – Planned in future updates.
-
+- 🎬 **Video Playback** – Watch YouTube videos directly inside the app.
+- 🔍 **Search Functionality** – Users can search any topic and get accurate results.
+- 📂 **Sidebar Categories** – Click a category to see recommended videos based on that topic.
+- 🧠 **Recommended Videos** – While watching a video, related videos appear on the side.
+- 💬 **Live YouTube Data**:
+  - 👍 Like Count
+  - 💬 Comment Count and Preview of Comments
+  - 📝 Video Description
+  - 📅 Video Publish Date
+  - 📈 Channel Subscriber Count
+- 📱 **Partial Responsiveness** – Optimized for desktop and tablet. (Full mobile support is coming soon.)
+- 🚫 **Dark Mode** – Not yet implemented, planned for future updates.
 ---
 
 ## 🛠️ Technologies Used
